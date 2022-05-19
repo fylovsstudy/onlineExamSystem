@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../public/favicon.ico">
+    <title>考试系统</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="header">欢迎来到考试系统</h1>
+        <div class="content">
+            <div class="input_box">
+                学号: <input type="text" placeholder="请输入你的学号">
+            </div>
+            <br>
+            <div class="input_box">
+                密码: <input type="text" placeholder="请输入你的密码">
+            </div>
+            <button class="enter"><a href="/main">进入考试系统</a></button>
+
+        </div>
+    </div>
+</body>
+<!-- <script src="./css/index.css"></script> -->
+<script crossorigin="anonymous" src="https://cdn.bootcdn.net/ajax/libs/axios/0.19.2/axios.js"></script>
+<script src="./router.js" type="text/javascript"></script>
+<script src="./src/jquery.js" type="text/javascript"></script>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(211, 209, 209);
+    }
+
+    .header {
+        margin-top: 80px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .content {
+        margin: 0 auto;
+        width: 500px;
+        height: 250px;
+        font-size: 24px;
+        background-color: rgb(155, 155, 145);
+        border-radius: 5px;
+    }
+
+    .input_box {
+        margin-left: 30px;
+    }
+
+    input {
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 20px;
+        height: 35px;
+    }
+
+    button {
+        margin-top: 20px;
+        margin-left: 150px;
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+
+</html>
